@@ -46,6 +46,13 @@ class MainActivity : AppCompatActivity() {
         carsDrawableList.add(porsche)
         carsDrawableList.add(koen)
         carsDrawableList.add(bmw)
+
+
+        var recyclerView : RecyclerView = findViewById<RecyclerView>(R.id.recyclerView)
+        recyclerView.layoutManager = LinearLayoutManager(this)
+        val adapter = RecyclerAdapter(myCars, carsDrawableList)
+
+        recyclerView.adapter = adapter
     }
 
 }
