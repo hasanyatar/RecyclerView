@@ -18,9 +18,6 @@ class PresentationActivity : AppCompatActivity() {
 
         textView.setText(selectedCarText)
         imageView.setImageBitmap(bitmap)
-//        val selectedCarImage = SingletonClass.selectedCar
-//        val selectedImage = selectedCarImage.car
 
-//        imageView.setImageBitmap(selectedImage)
     }
 }

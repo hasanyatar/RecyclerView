@@ -18,22 +18,6 @@ class MainActivity : AppCompatActivity() {
         myCars.add("porsche")
         myCars.add("koen")
         myCars.add("bmw")
-
-
-//        val blue_lam =
-//            BitmapFactory.decodeResource(applicationContext.resources, R.drawable.blue_lam)
-//        val lamborghini =
-//            BitmapFactory.decodeResource(applicationContext.resources, R.drawable.lamborghini)
-//        val porsche = BitmapFactory.decodeResource(applicationContext.resources, R.drawable.porsche)
-//        val koen = BitmapFactory.decodeResource(applicationContext.resources, R.drawable.koen)
-//        val bmw = BitmapFactory.decodeResource(applicationContext.resources, R.drawable.bmw)
-//        var carsImage = ArrayList<Bitmap>()
-//        carsImage.add(blue_lam)
-//        carsImage.add(lamborghini)
-//        carsImage.add(porsche)
-//        carsImage.add(koen)
-//        carsImage.add(bmw)
-
         val blue_lam = R.drawable.blue_lam
         val lamborghini = R.drawable.lamborghini
         val porsche = R.drawable.porsche

@@ -28,8 +28,6 @@ class RecyclerAdapter(val carList : ArrayList<String>,val carImage :ArrayList<In
             val intent = Intent(holder.itemView.context,PresentationActivity :: class.java)
             intent.putExtra("car",carList[position])
             intent.putExtra("selectedImage",carImage[position])
-//            val singleton = SingletonClass.selectedCar
-//            singleton.car = carImage[position]
             holder.itemView.context.startActivity(intent)
         }
     }
